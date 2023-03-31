@@ -526,14 +526,79 @@ h3,h2
     }
 
 
-    .map
-    {
-        position: relative;
-        right: 9px !important;
+    iframe {
+        max-width: 100%;
+        max-height: 100%;
     }
-
+      
+    .map-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* or set a fixed height */
+      }
 
 }
 
 
 
+
+
+/* Celulares mas chicos*/
+/*
+@media (max-width: 350px)
+{
+
+    .Title
+    {
+        padding: 20px 60px 0px 0px!important;
+        font-size: 2rem !important;
+        text-align: center;
+    }
+    
+    .social-icon
+    {
+        margin: 0px 1px 0px 0px;
+    }
+
+    #contacto
+    {
+        overflow: hidden;
+        margin: 0px;
+    }
+
+    .indiv-a
+    {
+        margin: 0px 0px !important;
+    }
+
+    .social-icons
+    {
+        padding-top: 2rem;
+    }
+
+
+    .Contact-Title
+    {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding-right: 0px;
+        padding-left: 0px;
+        font-size: 200%;
+        justify-content: left;
+    }
+    
+    .number
+    {
+        font-size: 1.7rem !important;
+    }
+
+
+    .text
+    {
+        padding: 1rem 0rem !important;
+        
+    }
+
+
+}*/
