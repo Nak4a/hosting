@@ -396,8 +396,15 @@ h3,h2
 /* Celulares*/
 @media (max-width: 550px)
 {
+    .Main
+    {
+        overflow: scroll !important;
+    }
+    body
+    {
+        overflow: scroll !important;
+    }
 
-    
     .social-icon
     {
         margin: 0px 1px 0px 0px;
@@ -444,4 +451,89 @@ h3,h2
 
 
 }
+
+/* Celulares menos chicos*/
+
+@media (max-width: 360px)
+{
+
+    .first-img-container
+    {
+        margin-left: 45px;
+    }
+    
+    .social-icon
+    {
+        margin: 0px 1px 0px 0px;
+    }
+
+    #contacto
+    {
+        overflow: hidden;
+        margin: 0px;
+    }
+
+    .indiv-a
+    {
+        margin: 0px 0px !important;
+    }
+
+    .social-icons
+    {
+        padding-top: 2rem;
+    }
+
+
+    .Contact-Title
+    {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding-right: 0px;
+        padding-left: 0px;
+        font-size: 200%;
+        justify-content: left;
+    }
+    
+    .telephone-container
+    {
+        padding: 0px !important;
+    }
+
+    .icon-container
+    {
+
+        font-size: 15px !important;  
+    }
+
+    .number
+    {
+       
+        font-size: 1.7rem !important;
+
+    }
+
+
+    .text
+    {
+        padding: 1rem 0rem !important;
+        
+    }
+
+    .Image-Text
+    {
+        font-size: 25px !important;
+        text-align: center;
+    }
+
+
+    .map
+    {
+        position: relative;
+        right: 9px !important;
+    }
+
+
+}
+
+
 
