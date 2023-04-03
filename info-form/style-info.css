@@ -1,0 +1,81 @@
+.centered
+{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hyperbtn:hover
+{
+    background-color: #395B64 !important; 
+    border-color: #395B64 !important;
+}
+
+@media (min-width: 1200px) {
+    
+    #nav-Title
+    {    
+        margin-right: 15rem !important;
+    }
+
+}
+
+
+
+
+
+#Title-container h1
+{
+    
+    font-family: 'Alkatra', sans-serif !important;
+    font-weight: 900;
+    max-width: 900px;
+    line-height: 1.5;
+    position: relative;
+    margin: 70px 0px; 
+    font-size: 60px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.Intro-text
+{
+    padding-top: 20px;
+    position: relative;
+    font-size: 20px;
+    width: 642px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+#first-video-container
+{
+    box-shadow: inset 0px 0px 20px 5px;
+    background: 
+    linear-gradient(135deg, rgba(60,148,231,1) 0%, 
+    rgba(26,57,111,1) 100%, 
+    rgba(25,55,109,1) 100%);
+    
+}
+
+
+
+
+
+#First-text
+{
+        font-size: 30px;
+        color: white;
+}
+
+
+
+
+/*  Celulares  */
+@media (max-width: 600px)
+{
+   
+}
+
+
