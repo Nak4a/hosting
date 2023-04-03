@@ -1,5 +1,22 @@
 
 /*  Siempre ejecutando */
+.logo
+{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#social-net
+{
+    padding-top: 5rem;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
 .round
@@ -9,7 +26,11 @@
     border-radius: 100%;
 }
 
-
+.hyperbtn:hover
+{
+    background-color: #395B64; 
+    border-color: #395B64;
+}
 
 
 .image
@@ -130,7 +151,7 @@ h3,h2
         color: white;
         min-width: 600px;
         font-size: 400%;
-        padding-top: 2em;
+        padding-top: 1em;
         font-family: 'Alkatra', sans-serif !important;
         font-weight: 900;
         line-height: 1.5;
@@ -207,6 +228,8 @@ h3,h2
         
     }
 
+    
+
     .text
     {
         padding: 1rem 0rem;
@@ -262,12 +285,6 @@ h3,h2
     .number
     {
         font-size: 2rem;
-    }
-
-    .logo
-    {
-        margin: 0px !important;
-        
     }
 
     .text
@@ -396,6 +413,10 @@ h3,h2
 /* Celulares*/
 @media (max-width: 550px)
 {
+    .Image-Text
+    {
+        text-align: cent;
+    }
     .Main
     {
         overflow: scroll !important;
