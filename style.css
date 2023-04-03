@@ -558,6 +558,14 @@ h3,h2
         align-items: center;
         height: 100%; /* or set a fixed height */
       }
+    
+     .logo
+     {
+       left: 45%;
+       top: 50%;
+
+       transform: translateX(-50%,-50%);
+     }
 
 }
 
