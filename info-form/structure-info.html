@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Instituto Musical Delia Buono</title>
-    <link href="logo-blanco.jpg" type="image/jpg" rel="icon">
+    <link href="/hosting/images/logo-blanco.jpg" type="image/jpg" rel="icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="style-info.css">
@@ -25,10 +25,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 
 <body class="overflow-x-hidden">
-    
+ 
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);">
         <div class="container-fluid">
             
@@ -56,7 +60,7 @@
                     
                     <li class="nav-item me-3" style="font-family: 'Arvo', serif;">
                         
-                        <a href="/hosting/structure.html">
+                        <a href="/hosting/structure-main.html">
                             <button type="button" class="hyperbtn btn btn-outline-dark btn-lg nav-button mb-sm-2">
                                 <i class="fa-solid fa-house" style="margin-right: 9px;"></i><span class="fs-5 pt-lg-5">Inicio</span>
                             </button>
@@ -80,55 +84,99 @@
             </div>
         </div>
     </nav>
+    <!--style="background-color: rgb(233, 233, 233); margin: 0;"-->
+<div class="main">
+    <div class="container " style="background-color: #ffff;">
 
-    <section id="Title-container" style="text-align: center; height: fit-content; ">
-        <div>
+
+        <section id="Title-container" style="text-align: center; height: fit-content; ">
             <div>
+                <div>
 
-                <h1>Compartimos videos de nuestras Audiciones</h1>
+                    <h1>Compartimos videos de nuestras Audiciones</h1>
 
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
+        <hr>
 
+        <section id="first-video-container" class="overflow-hidden">
+            <div>
+                <div class="row px-md-5">
+                    <div class="col-lg mt-5">
+                        
+                        <div>          
+                            <p id="vals-text"  class="ps-md-5" style="color: black; font-size: 55px; font-family: 'Dancing Script', cursive;">
+                                Vals en mi menor de F. Chopin interpretado por nuestra alumna Selene Méndez.<br>
+                                <span style="font-size: 30px;">Teatro Florencio Sánchez, diciembre 2022.</span>
+                                
+                            </p>
+                        </div>
+                        
+                    </div>
 
-    <section id="first-video-container">
-        <div>
-            <div class="row px-5">
-                <div class="col-lg mt-5">
-                    <div>
-                        <p id="First-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fugiat doloribus culpa numquam, at voluptate doloremque dolor? Recusandae, voluptatum. Officiis asperiores accusamus ipsa quidem beatae quasi cum quia earum. Dolores?
+                    <div class="col-lg">
+                        <video width="100%" height="90%" class="pt-md-5 centered position-relative" id="vals-video" src="/hosting/videos/audicion.mp4" controls></video>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        
+        <section id="Intro-video-container" class="content-fluid overflow-hidden">
+            <div>
+                <div class="row text-center">
+                    <div class="col-lg " style="height: fit-content;">
+
+                        <video width="100%" height="100%" id="Intro-video" src="/hosting/videos/Introduction.mp4" alt="Introduction-v" controls class="mt-5"></video>
+                        
+                    
+                    </div>
+                    
+                    <div class="col-lg">
+
+                        <p class="Intro-text mt-5" style="color: black; font-size: 30px; font-family: cursive;">
+                            Video institucional presentado en Montevideo el 17 de marzo de 2023 con motivo del reconocimiento a nuestra trayectoria y aporte cultural y social. El mismo fue otorgado a nuestro Instituto por la Federación de Mujeres para la paz mundial
+
+                            <img src="/hosting/images/FMPM.jpg" width="60px">
+                        </p>
+                        
+
+                    </div>
+
+                </div>
+            </div>
+            
+        </section>
+        <hr>
+        <section id="Third-section" style="height: 900px;">
+            <div>
+                <div class="row">
+
+                    <div class="col-lg">
+                        <p id="vals-text"  class="ps-md-5" style="color: black; font-size: 55px; font-family: 'Dancing Script', cursive;">
+                                Vals en mi menor de F. Chopin interpretado por nuestra alumna Selene Méndez.<br>
+                                <span style="font-size: 30px;">Teatro Florencio Sánchez, diciembre 2022.</span>
+                                
                         </p>
                     </div>
-                </div>
 
-                <div class="col-lg mt-5">
-                    <video  height="90%" width="95%" src="/hosting/videos/audicion.mp4" controls></video>
+                    <div class="col-lg">
+                        <video src="/hosting/videos/Video-2.mp4"width="100%" height="100%" controls></video>
+                    </div>
                 </div>
-
             </div>
-        </div>
-    </section>
-
+        </section>
+    </div>
+    
+</div>
 
 
     
-    <section id="Intro-video">
-        <div>
-            <div class="row text-center">
-                <div class="col" style="height: fit-content;">
-
-                    <video  height="60%" width="60%" src="/hosting/videos/Introduction.mp4" alt="Introduction-v" controls class="mt-5"></video>
-                    <p class="Intro-text centered">
-                        Video institucional presentado en Montevideo el 17 de marzo de 2023 con motivo del reconocimiento a nuestra trayectoria y aporte cultural y social. El mismo fue otorgado a nuestro Instituto por la Federación de Mujeres para la paz mundial.
-                    </p>
-                
-                </div>
-            </div>
-        </div>
-    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
